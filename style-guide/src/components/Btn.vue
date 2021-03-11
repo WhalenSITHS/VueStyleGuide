@@ -14,7 +14,13 @@ export default {
     },
     /**
      * Sets the button background color
+     
+
+
      * Accepts primary, secondary and accent as options
+     
+
+     
      * can be overridden with theme switcher in :root
      */
     color: {
