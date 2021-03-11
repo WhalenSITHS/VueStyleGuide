@@ -10,15 +10,22 @@ export default {
 
 <style lang="scss">
 button {
-  height: 50px;
-  width: 500px;
-  border-radius: 10px;
-  font-size: 50px;
-  background-color: blue;
+  font-size: var(--h4);
+  height: 5rem;
+  color: var(--background-primary);
+  border: 1px solid #fff;
+  padding: 0.5rem 2.4rem;
+  text-decoration: none;
+  transition: all 0.4s;
+  background-color: var(--text-primary);
+  border-radius: 3rem;
   transition: all 0.3s;
 }
 button:hover {
-  background-color: red;
+  border: 1px solid clear;
+  background-color: var(--background-primary);
+  cursor: pointer;
+  color: var(--text-primary);
 }
 </style>
 <docs>
