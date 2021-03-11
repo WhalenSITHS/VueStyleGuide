@@ -1,15 +1,19 @@
 <template>
-  <div id="app">
-    <Btn>TEST</Btn>
+  <div id="app" class="theme">
+    <Btn color="primary">TEST</Btn>
+    <Btn color="secondary">TEST</Btn>
+    <HeaderOne>This is my header</HeaderOne>
   </div>
 </template>
 
 <script>
 import Btn from "./components/Btn";
+import HeaderOne from "./components/Header";
 export default {
   name: "App",
   components: {
     Btn,
+    HeaderOne,
   },
 };
 </script>
